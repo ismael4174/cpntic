@@ -169,4 +169,6 @@
         new WOW().init();
     }
 
+    
+
 })(jQuery);
