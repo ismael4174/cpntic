@@ -82,11 +82,11 @@
                             <!-- Nav Start -->
                             <div class="classynav">
                                 <ul>
-                                    <li><a href="index.html">Acceuil</a></li>
+                                    <li><a href="index.html" class="active">Acceuil</a></li>
                                     <li><a href="about.html">Présentation</a></li>
-                                    <li><a href="services.html">Nos services</a></li>
+                                    <li><a href="#services">Nos services</a></li>
                                     <li><a href="services.html">Nos produits</a></li>
-                                    <li><a href="services.html">Nos références</a></li>
+                                    <li><a href="#references">Nos références</a></li>
                                     <li><a href="post.html">Actualité</a></li>
                                     <li><a href="contact.html">Contact</a></li>
                                 </ul>
@@ -96,7 +96,7 @@
 
                         <!-- Contact -->
                         <div class="contact">
-                            <a href="#"><img src="img/core-img/call2.png" alt=""> +225 22 44 81 43</a>
+                            <a href="#"><img src="img/core-img/call2.png" alt=""> 27 22 44 81 43</a>
                         </div>
                     </nav>
                 </div>
@@ -210,26 +210,26 @@
     <!-- ##### Hero Area End ##### -->
 
     <!-- ##### About Area Start ###### -->
-    <section class="about-area section-padding-100-0">
+    <section class="about-area section-padding-100-0" style="background-color: #003679;">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-12">
                     <!-- Section Heading -->
                     <div class="section-heading text-center mb-100 wow fadeInUp" data-wow-delay="100ms">
                         <div class="line"></div>
-                        <h2>MOT DU DIRECTEUR </h2>
+                        <h2 style="color: white;">MOT DU DIRECTEUR </h2>
                     </div>
 
                 </div>
                 <div class="col-12 col-md-6">
                     <div class="about-content mb-100">
                         <!-- Section Heading -->
-                        <p class="mb-0">Une page de notre ère est en train d’être définitivement tournée. Nous sommes de plain-pied dans le monde numérique.
+                        <p class="mb-0" style="color: white;">Une page de notre ère est en train d’être définitivement tournée. Nous sommes de plain-pied dans le monde numérique.
                             Il est désormais aisé d’envoyer et de recevoir de façon instantanée des informations d’un bout à l’autre du monde, la distance n’est plus un obstacle au développement.
                             L'avenir se dessine aujourd'hui par la maîtrise des technologies de l'information et de la communication, socle actuel de toutes les activités.
                             <br><br>
                             <b style="color:black;"> Yvan Serge Kragbé</b><br>
-                            <a style="color:red;"> DIRECTEUR DU CPNTIC</a></p>
+                            <b style="color: #ffbb38;"> DIRECTEUR DU CPNTIC</b></p>
                     </div>
                 </div>
                 <div class="col-12 col-md-6">
@@ -243,40 +243,48 @@
     <!-- ##### About Area End ###### -->
 
     <!-- ##### Features Area Start ###### -->
-    <section class="features-area section-padding-100-0">
+    <section class="features-area section-padding-100-0" id="services">
         <div class="container">
             <div class="row">
 
                 <div class="col-12">
                     <!-- Section Heading -->
-                    <div class="section-heading text-center mb-100 wow fadeInUp" data-wow-delay="100ms">
+                    <div class="section-heading text-center mb-100 wow fadeInUp" data-wow-delay="200ms">
                         <div class="line"></div>
                         <h2>NOS SERVICES</h2>
                     </div>
 
                 </div>
                 <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-features-area mb-100 wow fadeInUp" data-wow-delay="300ms">
+                    <div class="single-features-area mb-100 wow fadeInUp" data-wow-delay="300ms" style="text-align: center;">
                         <img class="rounded" src="img/bg-img/program.jpg" alt="">
                         <h5>Developpement Informatique</h5>
+                        <br>
+                        <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#modal_1">En savoir plus (+)</button>
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-features-area mb-100 wow fadeInUp" data-wow-delay="300ms">
+                    <div class="single-features-area mb-100 wow fadeInUp" data-wow-delay="400ms" style="text-align: center;">
                         <img class="rounded" src="img/bg-img/reseau.jpg" alt="">
                         <h5>Réseau Informatique</h5>
+                        <br><br>
+                        <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#modal_2">En savoir plus (+)</button>
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-features-area mb-100 wow fadeInUp" data-wow-delay="500ms">
+                    <div class="single-features-area mb-100 wow fadeInUp" data-wow-delay="500ms" style="text-align: center;">
                         <img class="rounded" src="img/bg-img/maintenance-2.jpg" alt="">
                         <h5>Maintenance</h5>
+                        <br><br>
+                        <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#modal_3">En savoir plus (+)</button>
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-features-area mb-100 wow fadeInUp" data-wow-delay="700ms">
+                    <div class="single-features-area mb-100 wow fadeInUp" data-wow-delay="600ms" style="text-align: center;">
                         <img class="rounded" src="img/bg-img/formation.jpg" alt="">
                         <h5>Formation</h5>
+                        <br><br>
+                        <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#modal_4">En savoir plus (+)</button>
                     </div>
                 </div>
             </div>
@@ -601,7 +609,7 @@
         </div>
     </section>
     <!-- ##### Newsletter Area End ###### -->
-    <section class="section-padding-100-0">
+    <section class="section-padding-100-0" id="references">
     <!-- Section Heading -->
     <div class="section-heading text-center mb-100 wow fadeInUp" data-wow-delay="100ms">
         <div class="line"></div>
@@ -686,6 +694,108 @@
         </div>
     </footer>
     <!-- ##### Footer Area Start ##### -->
+
+    <!-- Modal 1 -->
+    <div class="modal fade" id="modal_1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Développement Informatique</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>
+            Nous offrons des services dans les domaines suivants :
+            <li> Conception et réalisation de logiciels</li>
+            <li> Conception et réalisation de site internet</li>
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal fade" id="modal_2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Réseau Informatique</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <p>
+            Nous offrons des services dans les domaines suivants :
+            <li> Mise en place de reseau filaire</li>
+            <li> Vérification des travaux de cablages</li>
+            <li> Interconnexion (fibre optique,...)</li>
+            </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal fade" id="modal_3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Maintenance</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <p>
+            Nous offrons des services dans les domaines suivants :
+            <li> Maintenance currative et préventive des ordinateurs</li>
+            <li> Maintenance de logiciel</li>
+            <li> Maintenance reseau</li>
+            </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+        </div>
+      </div>
+        </div>
+     </div>
+
+     <!-- Modal 4 -->
+    <div class="modal fade" id="modal_4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Formation</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>
+            Nous offrons des formations dans les domaines suivants :
+
+            <li> Initiation à l'outil informatique</li>
+            <li> Initiation à la bureautique et perfectionnement</li>
+            <li> Outils Web</li>
+            <li> Développement d'applications</li>
+            <li> Reseaux</li>
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+        </div>
+      </div>
+    </div>
+    </div>
 
     <!-- ##### All Javascript Script ##### -->
     <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
